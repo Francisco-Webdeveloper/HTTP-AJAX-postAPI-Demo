@@ -2,7 +2,7 @@ const searchAlgoliaPlaces = (event) => {
   const url = "https://places-dsn.algolia.net/1/places/query"
 
   const queryJson = { query: event.currentTarget.value }
-                    // whatever is written inside of the input. Ex: { query: 'banana' }
+                    // whatever is written inside of the input. Ex: { query: 'lisboa' }
 
   // this queryJson.to_s. We transform an JS object into a string
   const bodyStrigified = JSON.stringify(queryJson);
